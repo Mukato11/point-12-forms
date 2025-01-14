@@ -1,0 +1,291 @@
+
+.black-line 
+{ 
+  width: 100%; 
+  height: 45px;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+}
+
+.header-container { 
+    width: 100%;   
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      }
+ 
+  .ul-el {
+    display: flex;
+    column-gap: 20px;
+    color: black;
+  }
+
+  .burger-bar {
+    display: none;
+  }
+
+  .log-in
+  {
+    width: 120px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 60px;
+    border-color: black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.conteiner 
+{
+  max-width: 1440px;
+  width: 100%;
+
+  display: flex; 
+  flex-direction: row;
+}
+ 
+  .registration-block 
+  {
+max-width: 500px;
+width: 100%;
+height: 800px;
+background-color: white;
+border: 2px solid;
+border-radius: 30px;
+color: black;
+margin: 80px;
+display: flex;
+  flex-direction: column; 
+  align-items: center;
+  }
+
+  .empty
+  {
+    max-width: 500px;
+    width: 100%;
+    height: 800px; 
+  }
+
+  .black-line-end 
+  {
+    width: 100%; 
+  height: 425px;
+  background-color: black;
+  color: white;
+      }
+
+  .left-right
+  { 
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   
+      
+  }
+
+  .left
+  {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    
+    
+  
+   
+  }
+
+  .right
+  {
+    display: flex;
+    width: 40%;
+    margin-top: 100px; 
+    flex-direction: column;
+    margin-right: 100px;   
+
+  }
+
+  .sign-up 
+      {
+        width: 120px;        
+        height: 40px;
+        border: 2px solid;
+        border-radius: 60px;
+        border-color: white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .line 
+      {
+        width: 100%;
+        color: white; 
+        text-align: center;       
+      }
+  
+
+.text 
+{   
+    color: white; 
+    
+}
+
+
+
+
+/* form elements */
+  
+.user 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.form-el {
+  max-width: 700px;
+  width: 100%;
+}
+.form-div-element {
+  display: flex;
+  flex-direction: column;  
+}
+
+.form-title 
+{
+  width: 100%;
+  height: 100px;
+ display: flex;
+ justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: xx-large
+
+}
+
+.form-element 
+{
+  display: flex;
+  flex-direction: column; 
+  margin-left: 35px; 
+  margin-right: 35px;
+}
+.input-el {
+  height: 60px;
+  border-bottom: 2px solid #000;
+  border-radius: 25px;
+  margin: 15px 0;
+  
+}
+.btn-submit {
+  max-width: 500px;
+  width: 90%;  
+  color: white;
+  background-color: black;
+  border: 2px solid; 
+  height: 60px;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: 27px;
+}
+
+.btn-submit-2 {
+  max-width: 500px;
+  width: 90%; 
+  background-color: white; 
+  border: 2px solid; 
+  height: 60px;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: 27px;
+  
+}
+.all 
+{ 
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+
+.line-2 
+{
+  max-width: 500px;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.all-2 
+{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   margin-top: 50px; 
+}
+
+.bag 
+{
+  display: none;
+}
+
+@media (max-width: 1440px) {
+
+  .bag 
+  {
+    display: none;
+  }
+
+}
+
+@media (max-width: 375px) {
+.navigation
+{
+  display: none;
+}
+.burger-bar
+{
+  display: block;  
+}
+.bag 
+{
+  display: block;
+}
+.conteiner 
+{width: 375px;
+  height: 1178px;
+  flex-direction: column;
+}
+.registration-block 
+{width: 375px;
+  margin-top: 300px;
+}
+
+.left-right 
+{
+  flex-direction: column;
+}
+.black-line-end
+{
+  height: 640px;
+}
+.empty 
+{
+  width: 375px;
+}
+.left 
+{
+  flex-direction: column;
+}
+
+  }
+
